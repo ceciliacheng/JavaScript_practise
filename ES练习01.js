@@ -30,7 +30,7 @@ function createAnimalTradingCardHTML(animal) {
                 </ul>
                 <p class="brief"> + ${animal.summary} </p>
             </div>
-    </div>;`
+    </div>`
 
     return cardHTML;
 }
