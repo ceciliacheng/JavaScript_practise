@@ -5,6 +5,7 @@
 const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 
 // your code goes here
-for (var day in days) {
-  console.log(day.toUpperCase());
+for (let day in days) {
+  day = day[0].toUpperCase()
+  console.log(day);
 }
